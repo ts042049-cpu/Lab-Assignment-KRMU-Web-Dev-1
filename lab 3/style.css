@@ -1,0 +1,345 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    width: 85%;
+    height: 50px;
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    padding: 40px 0;
+    text-align: left;
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+b{
+    /* color: orangered; */
+    animation-name: abc;
+    animation-iteration-count:infinite;
+    animation-duration: 4s;
+            animation-timing-function: ease-in;
+}
+@keyframes abc{
+            form 
+            {
+            color: aquamarine;
+            font-size: 100px;
+            }
+            10%{
+               color: blue;
+                font-size: 30px;
+            }
+            20%{
+                color: chartreuse;
+                font-size: 50px;
+            }
+            
+            30%{
+            color: rgb(98, 167, 41);
+                font-size: 80px;
+            }
+            
+            40%{
+            color: rgb(209, 103, 37);
+                font-size: 100px;
+                
+            }
+            
+            60%{
+                color: rgb(252, 142, 235);
+                font-size: 50px;
+            }
+            
+            
+            80%{
+                color: rgb(165, 182, 53);
+                font-size: 100px;
+                
+            }
+            to{
+            color: brown;
+            }
+        }
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 25px;
+    
+}
+h3 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+}
+
+.btn {
+    display: inline-block;
+    background: #0053a0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background: #003d7a;
+}
+
+header {
+    background: #0053a0;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+    
+}
+ul{
+    position: absolute;
+    right: 0%;
+    top: 40px;
+}
+
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+img {
+    background-color: #333;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}
+
+#about p, #welcome p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(37, 245, 0);
+    text-align: left;
+    height:200px;
+    width: 500px;
+    position: relative;
+    left: 25%;
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-geometric-shape-tropical-leaf-theme-red-neon-lighting-effect-background-picture-image_989660.jpg);
+    background-size: 150px 500px;
+    animation-name: fx;
+    animation-iteration-count:infinite;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+}
+@keyframes fx{
+form {
+            background-image: url(https://nationaleventpros.com/wp-content/uploads/2017/08/Depositphotos_6943131_l-2015-1600x1038.jpg);
+            }
+            40%{
+              background-image: url(https://asset.gecdesigns.com/img/wallpapers/yellow-circle-dark-theme-iphone-wallpaper-hd-sr17092415-cover.webp);
+            }
+            80%{
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOL_2zQ9H6YuHx7hp0tzEIjDQqAsZwQlQN-A&s);
+            
+          
+        }
+    }
+
+
+.project-card h3 {
+    margin-bottom: 10px;
+    color: #0053a0;
+}
+
+#div1{
+    background:var(--card);
+    background-color: #286be9;
+    height:70px;
+    width: 280px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    color: rgb(255, 255, 255); 
+    
+}
+#div1:hover{
+box-shadow: 0px 0px 20px;
+color: rgb(35, 0, 147);
+height:90px;
+width: 300px;
+}
+#div-row{
+    display:flex;
+  gap:16px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #0053a0;
+    color: white;
+    text-align: center;
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+   
+    
+}
+form{
+     /* border: 2px solid blue; */
+     background-color: white;
+
+}
+label,input{
+    color: blue;
+}
+
+.form-grid label {
+    text-align: right;
+    font-weight: bold;
+}
+
+.form-grid input[type="text"],
+.form-grid input[type="email"],
+.form-grid textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.form-grid label[for="message"] {
+    align-self: start;
+    padding-top: 10px;
+}
+
+#contact form .btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0053a0;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.back-to-top-btn:hover {
+    background: #003d7a;
+}
+button{
+width: 500px;
+}
